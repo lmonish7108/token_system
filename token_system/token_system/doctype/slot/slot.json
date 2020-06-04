@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "autoname": "format:{date}-{starting_at}-{ending_at}",
+ "creation": "2020-05-27 18:41:13.555040",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "date",
+  "starting_at",
+  "ending_at",
+  "token_count"
+ ],
+ "fields": [
+  {
+   "fieldname": "starting_at",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Starting At",
+   "options": "09\n10\n11\n12\n13\n14\n15\n16\n17",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "ending_at",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ending At",
+   "options": "10\n11\n12\n13\n14\n15\n16\n17\n18",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "token_count",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Token Count",
+   "reqd": 1
+  }
+ ],
+ "links": [],
+ "modified": "2020-05-31 15:18:14.662801",
+ "modified_by": "Administrator",
+ "module": "Token System",
+ "name": "Slot",
+ "name_case": "UPPER CASE",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Executioner",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include token_system *.css
+recursive-include token_system *.csv
+recursive-include token_system *.html
+recursive-include token_system *.ico
+recursive-include token_system *.js
+recursive-include token_system *.json
+recursive-include token_system *.md
+recursive-include token_system *.png
+recursive-include token_system *.py
+recursive-include token_system *.svg
+recursive-include token_system *.txt
+recursive-exclude token_system *.pyc

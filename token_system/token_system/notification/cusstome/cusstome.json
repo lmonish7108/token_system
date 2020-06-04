@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2020-05-29 11:16:12.118679",
+ "date_changed": "creation",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Slot",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Add your message here",
+ "modified": "2020-05-29 11:20:23.128688",
+ "modified_by": "Administrator",
+ "module": "Token System",
+ "name": "cusstome",
+ "owner": "Administrator",
+ "property_value": "",
+ "recipients": [
+  {
+   "cc": "lmonish7108@gmail.com",
+   "email_by_document_field": "owner"
+  }
+ ],
+ "sender": "Email Linking",
+ "sender_email": "lmonish7108@gmail.com",
+ "set_property_after_alert": "",
+ "subject": "Slot {{ doc.name }} is generated."
+}
